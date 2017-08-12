@@ -1,0 +1,177 @@
+/*use central selector
+*{
+margin: 0;
+} to remove all ,argins*/
+
+header{
+  height: 157px;
+}
+header img{
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  position: relative;
+}
+header h1{
+  display: inline-block;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  vertical-align: top;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+header h2{
+  height: 25px;
+  background-color: blue;
+}
+header h2{
+  margin-top: 0px;
+  position: absolute;
+  top: 95px;
+  bottom: 0px;
+margin-bottom: 0px;
+  height: 70px;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 70px;
+  padding-left: 20px;
+width: 100%;
+color: white;
+
+}
+aside{
+  display: inline-block;
+  width: 22%;
+  background-color: white;
+}
+aside h2, aside h3{
+  width: 98%;
+  margin-left: 5px;
+}
+button{
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+#button-1 {
+  background-color: blue;
+}
+#button-2 {
+  background-color: orange;
+}
+#break{
+  width: 95%;
+  height: 1px;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+#learn-more{
+  position: absolute;
+  /*top: 46%;*/
+  width: inherit;
+  /*background-image: url("ad_background.png");*/
+}
+#background{
+  width: 98%;
+  height: 350px;
+}
+#text{
+  color: white;
+  position: absolute;
+top: 10px;
+left: 5%;
+font-weight: lighter;
+width: 80%;
+font-family: sans-serif;
+text-align: center;
+}
+#ninja{
+  position: absolute;
+height: 50%;
+top: 110px;
+left: 22%;
+}
+#button-3{
+  position: absolute;
+top: 290px;
+background-color: aqua;
+}
+
+main{
+  display: inline-block;
+  background-color: white;
+  position: absolute;
+  width: 78%;
+}
+#home{
+  width: 4%;
+  vertical-align: top;
+  margin-top: 1%;
+  margin-left: 0.5%;
+}
+
+#phone{
+    width: 7%;
+    /*margin-left: 460px;*/
+}
+#main-top > h2{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.8%;
+  width: 5%;
+}
+#main-text{
+  display: inline-block;
+  width: 80%;
+}
+#main-text p, #main-text h1{
+  margin: 0px;
+}
+
+#break-2{
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#heading{
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#sub-heading{
+  margin-left: 10px;
+}
+#cycle{
+  display: block;
+  width: 30%;
+margin-left: 35%;
+margin-top: 10px;
+}
+#list-heading{
+  color: blue;
+margin-left: 10px;
+}
+#heading-list li{
+  margin-bottom: 5px;
+}
+section{
+  border: 5px solid blue;
+  border-bottom: 0px;
+  margin-right: 5px;
+}
+section img{
+  width: 100px;
+  margin: 10px 10px 10px 15px;
+}
+section div{
+  display: inline-block;
+  width: 745px;
+}
